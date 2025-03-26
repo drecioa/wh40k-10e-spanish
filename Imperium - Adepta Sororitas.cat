@@ -58,7 +58,7 @@
             </profile>
             <profile name="Autotapiz del Juicio del Emperador" typeId="9cc3-6d83-4dd3-9b64" typeName="Habilidades" hidden="false" id="4ced-f030-661-af4c">
               <characteristics>
-                <characteristic name="Descripci&oacute;n" typeId="9b8f-694b-e5e-b573">While this unit is leading a unit and contains an Aestred Thurga model, weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability</characteristic>
+                <characteristic name="Descripción" typeId="9b8f-694b-e5e-b573">Mientras Aestred Thurga lidere una unidad, las armas de combate con las que estén equipadas las miniaturas de esa unidad tienen la habilidad [HERIDAS DEVASTADORAS].</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -73,7 +73,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c318-3e7b-3b17-8a3c-max"/>
               </constraints>
               <profiles>
-                <profile name="Filo de la Vigilia" typeId="8a40-4aaa-c780-9046" typeName="Cuerpo a cuerpo" hidden="false" id="7d77-2c2-fcb9-15af">
+                <profile name="Filo de la Vigilia" typeId="8a40-4aaa-c780-9046" typeName="Armas de combate" hidden="false" id="7d77-2c2-fcb9-15af">
                   <characteristics>
                     <characteristic name="Alcance" typeId="914c-b413-91e3-a132">Combate</characteristic>
                     <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
@@ -86,13 +86,13 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Pistola b&oacute;lter" hidden="false" id="381b-5ad2-e97f-53eb">
+            <selectionEntry type="upgrade" import="true" name="Pistola bólter" hidden="false" id="381b-5ad2-e97f-53eb">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="27c0-8dd8-5fc8-6c61-min"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="27c0-8dd8-5fc8-6c61-max"/>
               </constraints>
               <infoLinks>
-                <infoLink name="Pistola b&oacute;lter" hidden="false" type="profile" id="f7fb-ccc3-62d4-f1d9" targetId="c934-fc40-d6a2-8919"/>
+                <infoLink name="Pistola bólter" hidden="false" type="profile" id="f7fb-ccc3-62d4-f1d9" targetId="c934-fc40-d6a2-8919"/>
                 <infoLink name="Pistola" hidden="false" type="rule" id="4ec7-8626-b0a8-e78a" targetId="8bf7-8812-923d-29e4"/>
               </infoLinks>
             </selectionEntry>
@@ -100,22 +100,22 @@
         </selectionEntry>
         <selectionEntry type="model" import="true" name="Agathae Dolan" hidden="false" id="2ac6-3fa1-5a7e-73d8">
           <infoLinks>
-            <infoLink name="Bolt pistol" hidden="false" type="profile" id="9093-a6af-abc1-d937" targetId="c934-fc40-d6a2-8919"/>
+            <infoLink name="Pistola bólter" hidden="false" type="profile" id="9093-a6af-abc1-d937" targetId="c934-fc40-d6a2-8919"/>
           </infoLinks>
           <profiles>
-            <profile name="Agathae Dolan" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="c957-925b-487d-3411">
+            <profile name="Agathae Dolan" typeId="c547-1836-d8a-ff4f" typeName="Unidad" hidden="false" id="c957-925b-487d-3411">
               <characteristics>
                 <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
-                <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
-                <characteristic name="SV" typeId="450-a17e-9d5e-29da">6+</characteristic>
-                <characteristic name="W" typeId="750a-a2ec-90d3-21fe">3</characteristic>
-                <characteristic name="LD" typeId="58d2-b879-49c7-43bc">7+</characteristic>
-                <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+                <characteristic name="R" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+                <characteristic name="S"  typeId="450-a17e-9d5e-29da">6+</characteristic>
+                <characteristic name="H" typeId="750a-a2ec-90d3-21fe">3</characteristic>
+                <characteristic name="L"  typeId="58d2-b879-49c7-43bc">7+</characteristic>
+                <characteristic name="CO" typeId="bef7-942a-1a23-59f8">1</characteristic>
               </characteristics>
             </profile>
-            <profile name="Recount the Deeds of the Saints" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="aa7c-b9b-2657-ddbd">
+            <profile name="Narrar hazañas de las Santas" typeId="9cc3-6d83-4dd3-9b64" typeName="Habilidades" hidden="false" id="aa7c-b9b-2657-ddbd">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this unit is leading a unit and contains and Agathae Dolan model, each time that unit destroys an enemy unit, you gain 1 Miracle dice. When that Agathae Dolan model is destroyed, you gain D3 Miracle dice.</characteristic>
+                <characteristic name="Descripción" typeId="9b8f-694b-e5e-b573">Mientras esta unidad esté liderando otra unidad y contenga un modelo de Agathae Dolan, cada vez que esa unidad destruya una unidad enemiga, obtienes 1 dado de milagro. Cuando el modelo de Agathae Dolan sea destruido, obtienes D3 dados de milagro.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -124,21 +124,21 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6c63-ee8a-5154-da87"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Scribe&apos;s staff" hidden="false" id="4f76-e283-f5-664a">
+            <selectionEntry type="upgrade" import="true" name="Bastón de escriba" hidden="false" id="4f76-e283-f5-664a">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="932d-fc7e-646e-d926-min"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="932d-fc7e-646e-d926-max"/>
               </constraints>
               <profiles>
-                <profile name="Scribe&apos;s staff" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="d22a-b6d9-8f0d-faa5">
+                <profile name="Bastón de escriba" typeId="8a40-4aaa-c780-9046" typeName="Armas de combate" hidden="false" id="d22a-b6d9-8f0d-faa5">
                   <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="Alcance" typeId="914c-b413-91e3-a132">Combate</characteristic>
                     <characteristic name="A" typeId="2337-daa1-6682-b110">3</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">4</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="HA" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="F" typeId="ab33-d393-96ce-ccba">4</characteristic>
+                    <characteristic name="FP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                    <characteristic name="Claves" typeId="893f-9000-ccf7-648e">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -147,112 +147,112 @@
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
-        <categoryLink targetId="4f3a-f0f7-6647-348d" id="1311-db3c-7d93-5beb" primary="true" name="Epic Hero"/>
-        <categoryLink targetId="c8ba-2b2d-e47f-d7a6" id="4079-b86c-ece7-e020" primary="false" name="Aestred Thurga and Agathae Dolan"/>
-        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="c5bc-6500-994b-3476" primary="false" name="Character"/>
+        <categoryLink targetId="4f3a-f0f7-6647-348d" id="1311-db3c-7d93-5beb" primary="true" name="Heroína épica"/>
+        <categoryLink targetId="c8ba-2b2d-e47f-d7a6" id="4079-b86c-ece7-e020" primary="false" name="Aestred Thurga y Agathae Dolan"/>
+        <categoryLink targetId="9cfd-1c32-585f-7d5c" id="c5bc-6500-994b-3476" primary="false" name="Personaje"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="672d-c7f8-d184-ea43" primary="false" name="Imperium"/>
-        <categoryLink targetId="fd71-afa6-b13b-7fda" id="c78a-8263-be21-9df3" primary="false" name="Faction: Adepta Sororitas"/>
-        <categoryLink targetId="5a61-81ac-eb7c-a87e" id="92c5-73a0-33a-47f6" primary="false" name="Grenades"/>
-        <categoryLink targetId="cf47-a0d7-7207-29dc" id="992e-f8ec-930e-ccaa" primary="false" name="Infantry"/>
+        <categoryLink targetId="fd71-afa6-b13b-7fda" id="c78a-8263-be21-9df3" primary="false" name="Facción: Adepta Sororitas"/>
+        <categoryLink targetId="5a61-81ac-eb7c-a87e" id="92c5-73a0-33a-47f6" primary="false" name="Granadas"/>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="992e-f8ec-930e-ccaa" primary="false" name="Infantería"/>
       </categoryLinks>
       <profiles>
-        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="ed83-17a1-a012-95c3">
+        <profile name="Salvación invulnerable" typeId="9cc3-6d83-4dd3-9b64" typeName="Habilidades" hidden="false" id="ed83-17a1-a012-95c3">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Models in this units have an invulnerable save of 4+</characteristic>
+            <characteristic name="Descripción" typeId="9b8f-694b-e5e-b573">Los modelos en esta unidad tienen una salvación invulnerable de 4+</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Acts of Faith" hidden="false" type="rule" id="b552-c0e9-245a-22ee" targetId="7ef7-dca6-e2ea-ecc8"/>
+        <infoLink name="Actos de fe" hidden="false" type="rule" id="b552-c0e9-245a-22ee" targetId="7ef7-dca6-e2ea-ecc8"/>
       </infoLinks>
       <infoGroups>
-        <infoGroup name="Leader" hidden="false" id="70c0-1501-e16b-301">
+        <infoGroup name="Líder" hidden="false" id="70c0-1501-e16b-301">
           <infoLinks>
-            <infoLink name="Leader" hidden="false" type="rule" id="b0ff-fbd9-f8a8-4180" targetId="b4dd-3e1f-41cb-218f"/>
+            <infoLink name="Líder" hidden="false" type="rule" id="b0ff-fbd9-f8a8-4180" targetId="b4dd-3e1f-41cb-218f"/>
           </infoLinks>
           <profiles>
-            <profile name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="f272-c4ba-f40f-2de8">
+            <profile name="Líder" typeId="9cc3-6d83-4dd3-9b64" typeName="Habilidades" hidden="false" id="f272-c4ba-f40f-2de8">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This unit can be attached to the following units: 
-- Battle Sisters Squad
-- Celestian Sacresants
-- Dominion Squad
-- Retributor Squad
-- Sisters Novitiate Squad</characteristic>
+                <characteristic name="Descripción" typeId="9b8f-694b-e5e-b573">Esta unidad puede anexarse a las siguientes unidades: 
+- Escuadra de Hermanas de Batalla
+- Celestes Sacrosantas
+- Escuadra de Dominias
+- Escuadra de Vengadoras
+- Escuadra de Hermanas Novicias</characteristic>
               </characteristics>
             </profile>
           </profiles>
         </infoGroup>
       </infoGroups>
       <entryLinks>
-        <entryLink import="true" name="Warlord" hidden="false" type="selectionEntry" id="e231-fce8-28bf-5568" targetId="66c6-be4b-a1dc-10d0"/>
+        <entryLink import="true" name="Señora de la Guerra" hidden="false" type="selectionEntry" id="e231-fce8-28bf-5568" targetId="66c6-be4b-a1dc-10d0"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="107c-7137-7d06-d2fe" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Detachment Choice" hidden="false" id="9cc-e2b2-81eb-df6">
+    <selectionEntry type="upgrade" import="true" name="Elección de Destacamento" hidden="false" id="9cc-e2b2-81eb-df6">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="force" shared="true" id="39a0-624b-31ac-3708"/>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a322-26c3-3116-4a08"/>
       </constraints>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Detachment" hidden="false" id="ed1-baac-1f26-3ed7" defaultSelectionEntryId="none">
+        <selectionEntryGroup name="Destacamento" hidden="false" id="ed1-baac-1f26-3ed7" defaultSelectionEntryId="none">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9108-4f3b-bdd8-8f0b"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="48a2-629-cd21-4e9b"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Hallowed Martyrs" hidden="false" id="8e26-78e2-10bd-6982">
+            <selectionEntry type="upgrade" import="true" name="Mártires veneradas" hidden="false" id="8e26-78e2-10bd-6982">
               <infoLinks>
-                <infoLink name="The Blood of Martyrs" hidden="false" type="rule" id="1daa-3296-b121-e3b7" targetId="afa4-169c-3aaa-650"/>
+                <infoLink name="La Sangre de las Mártires" hidden="false" type="rule" id="1daa-3296-b121-e3b7" targetId="afa4-169c-3aaa-650"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Penitent Host" hidden="false" id="a2f5-a466-96b6-d389">
+            <selectionEntry type="upgrade" import="true" name="Hueste penitente" hidden="false" id="a2f5-a466-96b6-d389">
               <infoLinks>
-                <infoLink name="Desperate for Redemption" id="d1fe-2836-e897-060b" hidden="false" type="rule" targetId="909a-664e-ff1a-1985"/>
+                <infoLink name="Desesperados por redimirse" id="d1fe-2836-e897-060b" hidden="false" type="rule" targetId="909a-664e-ff1a-1985"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Bringers of Flame" hidden="false" id="575d-76f6-2edb-22c1">
+            <selectionEntry type="upgrade" import="true" name="Portadoras de la Llama" hidden="false" id="575d-76f6-2edb-22c1">
               <infoLinks>
-                <infoLink name="Fervent Purgation" id="d6fd-4a46-05e4-714a" hidden="false" type="rule" targetId="4130-3962-d1f1-2a04"/>
+                <infoLink name="Purga fervorosa" id="d6fd-4a46-05e4-714a" hidden="false" type="rule" targetId="4130-3962-d1f1-2a04"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Army of Faith" hidden="false" id="6f81-1a3e-c84e-0954">
+            <selectionEntry type="upgrade" import="true" name="Ejército de fe" hidden="false" id="6f81-1a3e-c84e-0954">
               <infoLinks>
-                <infoLink name="Sacred Rites" id="3bc0-d3dc-513f-c37e" hidden="false" type="rule" targetId="acd2-395b-e1b4-0918"/>
+                <infoLink name="Ritos sagrados" id="3bc0-d3dc-513f-c37e" hidden="false" type="rule" targetId="acd2-395b-e1b4-0918"/>
               </infoLinks>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Champions of Faith" hidden="false" id="5c81-a47b-d3a0-31e8">
+            <selectionEntry type="upgrade" import="true" name="Campeonas de la Fe" hidden="false" id="5c81-a47b-d3a0-31e8">
               <infoLinks>
-                <infoLink name="Righteous Purpose" id="cae6-40c2-6082-49ce" hidden="false" type="rule" targetId="cb5e-57b9-c416-c2a5"/>
-                <infoLink name="Keywords" id="3cc8-eaa5-8cf5-cda4" hidden="false" type="rule" targetId="f84c-5011-816f-3fb6"/>
+                <infoLink name="Propósito virtuoso" id="cae6-40c2-6082-49ce" hidden="false" type="rule" targetId="cb5e-57b9-c416-c2a5"/>
+                <infoLink name="Claves" id="3cc8-eaa5-8cf5-cda4" hidden="false" type="rule" targetId="f84c-5011-816f-3fb6"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <categoryLinks>
-        <categoryLink targetId="4ac9-fd30-1e3d-b249" id="8c15-fd85-9c6d-a73e" primary="true" name="Configuration"/>
+        <categoryLink targetId="4ac9-fd30-1e3d-b249" id="8c15-fd85-9c6d-a73e" primary="true" name="Configuración"/>
       </categoryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Arco-Flagellants" hidden="false" id="ca59-3760-5efc-9846" publicationId="7d85-6d0f-57e0-5dea">
+    <selectionEntry type="unit" import="true" name="Arcoflagelantes" hidden="false" id="ca59-3760-5efc-9846" publicationId="7d85-6d0f-57e0-5dea">
       <infoLinks>
-        <infoLink name="Acts of Faith" hidden="false" type="rule" id="e369-522a-186e-e1ac" targetId="7ef7-dca6-e2ea-ecc8"/>
-        <infoLink name="Feel No Pain" hidden="false" type="rule" id="7b5d-d7cb-83-fd90" targetId="9bf4-280f-bbe2-6fbb">
+        <infoLink name="Actos de fe" hidden="false" type="rule" id="e369-522a-186e-e1ac" targetId="7ef7-dca6-e2ea-ecc8"/>
+        <infoLink name="No hay dolor" hidden="false" type="rule" id="7b5d-d7cb-83-fd90" targetId="9bf4-280f-bbe2-6fbb">
           <modifiers>
             <modifier type="append" value="5+" field="name"/>
           </modifiers>
         </infoLink>
       </infoLinks>
       <categoryLinks>
-        <categoryLink targetId="cf47-a0d7-7207-29dc" id="c7da-3d84-b2ad-2555" primary="true" name="Infantry"/>
+        <categoryLink targetId="cf47-a0d7-7207-29dc" id="c7da-3d84-b2ad-2555" primary="true" name="Infantería"/>
         <categoryLink targetId="aff3-d6a3-2a95-9dc" id="1fb9-1a40-e794-7c40" primary="false" name="Imperium"/>
-        <categoryLink targetId="fd71-afa6-b13b-7fda" id="fbf0-1e70-6b61-12c" primary="false" name="Faction: Adepta Sororitas"/>
-        <categoryLink targetId="e2c8-1479-a7c4-228e" id="afc5-b0fb-5251-9b7d" primary="false" name="Penitent"/>
+        <categoryLink targetId="fd71-afa6-b13b-7fda" id="fbf0-1e70-6b61-12c" primary="false" name="Facción: Adepta Sororitas"/>
+        <categoryLink targetId="e2c8-1479-a7c4-228e" id="afc5-b0fb-5251-9b7d" primary="false" name="Penitente"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Arco-Flagellant" hidden="false" id="4950-9b2a-c4de-5e">
+        <selectionEntry type="model" import="true" name="Arcoflagelante" hidden="false" id="4950-9b2a-c4de-5e">
           <constraints>
             <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="39b7-a8a2-989f-6338"/>
             <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="5c84-8b-d5f7-cd13"/>
@@ -261,22 +261,22 @@
             <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
           </costs>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Arco-flails" hidden="false" id="ea4b-7955-fc10-1364" collective="true">
+            <selectionEntry type="upgrade" import="true" name="Arcoflagelos" hidden="false" id="ea4b-7955-fc10-1364" collective="true">
               <profiles>
-                <profile name="Arco-flails" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="42a9-7f25-36e-6bda">
+                <profile name="Arcoflagelos" typeId="8a40-4aaa-c780-9046" typeName="Armas de combate" hidden="false" id="42a9-7f25-36e-6bda">
                   <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="Alcance" typeId="914c-b413-91e3-a132">Melee</characteristic>
                     <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">4+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">0</characteristic>
+                    <characteristic name="HA" typeId="95d1-95f-45b4-11d6">4+</characteristic>
+                    <characteristic name="F" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="FP" typeId="41a0-1301-112a-e2f2">0</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">1</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">Sustained Hits 1</characteristic>
+                    <characteristic name="Claves" typeId="893f-9000-ccf7-648e">GOLPES SOSTENIDOS 1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink name="Sustained Hits" hidden="false" type="rule" id="25d0-1aa7-2214-fd84" targetId="1897-c22c-9597-12b1"/>
+                <infoLink name="GOLPES SOSTENIDOS" hidden="false" type="rule" id="25d0-1aa7-2214-fd84" targetId="1897-c22c-9597-12b1"/>
               </infoLinks>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9a7b-e97f-ed66-7716-min"/>
@@ -287,24 +287,24 @@
         </selectionEntry>
       </selectionEntries>
       <profiles>
-        <profile name="Extremis Trigger Word" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="b91b-e2eb-4678-72c7">
+        <profile name="Palabra de activación Extremis" typeId="9cc3-6d83-4dd3-9b64" typeName="Habilidades" hidden="false" id="b91b-e2eb-4678-72c7">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Each time this unit is selected to fight, you can choose to invoke its extremis trigger word. If you do, then until the end of the phase, arco-flails equipped by models in this unit have an Attacks characteristic of 6 and the HAZARDOUS ability.</characteristic>
+            <characteristic name="Descripción" typeId="9b8f-694b-e5e-b573">Cada vez que esta unidad sea elegida para combatir, puedes elegir invocar su palabra de activación extremis. Si lo haces, entonces hasta el final de la fase los arcoflagelos con los que están equipadas las miniaturas de esta unidad tienen un atributo Ataques de 6 y la habilidad [DE RIESGO].</characteristic>
           </characteristics>
         </profile>
-        <profile name="Arco-Flagellants" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="f777-d73c-fdbb-b61e">
+        <profile name="Arcoflagelantes" typeId="c547-1836-d8a-ff4f" typeName="Unidad" hidden="false" id="f777-d73c-fdbb-b61e">
           <characteristics>
             <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">7&quot;</characteristic>
-            <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
-            <characteristic name="SV" typeId="450-a17e-9d5e-29da">7+</characteristic>
-            <characteristic name="W" typeId="750a-a2ec-90d3-21fe">2</characteristic>
-            <characteristic name="LD" typeId="58d2-b879-49c7-43bc">8+</characteristic>
-            <characteristic name="OC" typeId="bef7-942a-1a23-59f8">1</characteristic>
+            <characteristic name="R" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
+            <characteristic name="S" typeId="450-a17e-9d5e-29da">7+</characteristic>
+            <characteristic name="H" typeId="750a-a2ec-90d3-21fe">2</characteristic>
+            <characteristic name="L" typeId="58d2-b879-49c7-43bc">8+</characteristic>
+            <characteristic name="CO" typeId="bef7-942a-1a23-59f8">1</characteristic>
           </characteristics>
         </profile>
-        <profile name="Invulnerable Save" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="828e-7f00-0d5d-7e9e">
+        <profile name="Salvación invulnerable" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="828e-7f00-0d5d-7e9e">
           <characteristics>
-            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">This model has an invulnerable save of 6+</characteristic>
+            <characteristic name="Description" typeId="9b8f-694b-e5e-b573">Este modelo tiene una salvación invulnerable de 6+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -312,7 +312,7 @@
         <cost name="pts" typeId="51b2-306e-1021-d207" value="45"/>
       </costs>
       <modifiers>
-        <modifier type="set" value="140" field="51b2-306e-1021-d207">
+        <modifier type="set" value="150" field="51b2-306e-1021-d207">
           <conditions>
             <condition type="atLeast" value="4" field="selections" scope="ca59-3760-5efc-9846" childId="4950-9b2a-c4de-5e" shared="true" includeChildSelections="true"/>
           </conditions>
