@@ -46,7 +46,7 @@
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Aestred Thurga" hidden="false" id="9ae2-3070-9d6a-6c9c">
           <profiles>
-            <profile name="Aestred Thurga" typeId="c547-1836-d8a-ff4f" typeName="Unit" hidden="false" id="d46e-3fa2-958-1d07">
+            <profile name="Aestred Thurga" typeId="c547-1836-d8a-ff4f" typeName="Unidad" hidden="false" id="d46e-3fa2-958-1d07">
               <characteristics>
                 <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">6&quot;</characteristic>
                 <characteristic name="R" typeId="d29d-cf75-fc2d-34a4">3</characteristic>
@@ -56,9 +56,9 @@
                 <characteristic name="CO" typeId="bef7-942a-1a23-59f8">1</characteristic>
               </characteristics>
             </profile>
-            <profile name="Auto-Tapestry of the Emperor&apos;s Judgement" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities" hidden="false" id="4ced-f030-661-af4c">
+            <profile name="Autotapiz del Juicio del Emperador" typeId="9cc3-6d83-4dd3-9b64" typeName="Habilidades" hidden="false" id="4ced-f030-661-af4c">
               <characteristics>
-                <characteristic name="Description" typeId="9b8f-694b-e5e-b573">While this unit is leading a unit and contains an Aestred Thurga model, weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability</characteristic>
+                <characteristic name="Descripci&oacute;n" typeId="9b8f-694b-e5e-b573">While this unit is leading a unit and contains an Aestred Thurga model, weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -67,33 +67,33 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="45ce-5114-9875-35a6"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Blade of Vigil" hidden="false" id="c84b-d988-95ea-d3d5">
+            <selectionEntry type="upgrade" import="true" name="Filo de la Vigilia" hidden="false" id="c84b-d988-95ea-d3d5">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c318-3e7b-3b17-8a3c-min"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c318-3e7b-3b17-8a3c-max"/>
               </constraints>
               <profiles>
-                <profile name="Blade of Vigil" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons" hidden="false" id="7d77-2c2-fcb9-15af">
+                <profile name="Filo de la Vigilia" typeId="8a40-4aaa-c780-9046" typeName="Cuerpo a cuerpo" hidden="false" id="7d77-2c2-fcb9-15af">
                   <characteristics>
-                    <characteristic name="Range" typeId="914c-b413-91e3-a132">Melee</characteristic>
+                    <characteristic name="Alcance" typeId="914c-b413-91e3-a132">Combate</characteristic>
                     <characteristic name="A" typeId="2337-daa1-6682-b110">4</characteristic>
-                    <characteristic name="WS" typeId="95d1-95f-45b4-11d6">2+</characteristic>
-                    <characteristic name="S" typeId="ab33-d393-96ce-ccba">5</characteristic>
-                    <characteristic name="AP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
+                    <characteristic name="HA" typeId="95d1-95f-45b4-11d6">2+</characteristic>
+                    <characteristic name="F" typeId="ab33-d393-96ce-ccba">5</characteristic>
+                    <characteristic name="FP" typeId="41a0-1301-112a-e2f2">-2</characteristic>
                     <characteristic name="D" typeId="3254-9fe6-d824-513e">2</characteristic>
-                    <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">-</characteristic>
+                    <characteristic name="Claves" typeId="893f-9000-ccf7-648e">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Bolt pistol" hidden="false" id="381b-5ad2-e97f-53eb">
+            <selectionEntry type="upgrade" import="true" name="Pistola b&oacute;lter" hidden="false" id="381b-5ad2-e97f-53eb">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="27c0-8dd8-5fc8-6c61-min"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="27c0-8dd8-5fc8-6c61-max"/>
               </constraints>
               <infoLinks>
-                <infoLink name="Bolt pistol" hidden="false" type="profile" id="f7fb-ccc3-62d4-f1d9" targetId="c934-fc40-d6a2-8919"/>
-                <infoLink name="Pistol" hidden="false" type="rule" id="4ec7-8626-b0a8-e78a" targetId="8bf7-8812-923d-29e4"/>
+                <infoLink name="Pistola b&oacute;lter" hidden="false" type="profile" id="f7fb-ccc3-62d4-f1d9" targetId="c934-fc40-d6a2-8919"/>
+                <infoLink name="Pistola" hidden="false" type="rule" id="4ec7-8626-b0a8-e78a" targetId="8bf7-8812-923d-29e4"/>
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
